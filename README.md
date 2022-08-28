@@ -1,8 +1,8 @@
 # Week - NULL
-```Hafta veya Ödev Sayısı (NULL değiştir)```
+```Hafta veya Ödev Sayısı (3)```
 
 # Homework 
-```Ödev```
+```Harcama Takip```
 
 
 ## Homework Description
@@ -12,4 +12,4 @@
 
 ## Author
 
-```Ödevi yapan```
+```Ela Kaşcıoğlu```

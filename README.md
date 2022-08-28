@@ -1,3 +1,23 @@
+
+# Week - NULL
+```3```
+
+# Homework 
+``` Harcama Takip  ```
+
+
+## Homework Description
+
+```Homewordk Description ```
+
+
+## Author
+
+```Ela Kaşcıoğlu```
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

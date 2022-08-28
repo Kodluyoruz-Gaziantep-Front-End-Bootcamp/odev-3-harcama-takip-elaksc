@@ -1,0 +1,109 @@
+:root {
+  --box-shadow: 0px 1px 4px 1px rgba(199,199,199,1);
+
+}
+
+.income-btn{
+  border-radius: 9pc;
+  background-image: linear-gradient(to bottom right, rgb(80, 223, 62), rgba(13, 68, 6, 0.438));
+}
+.expense-btn{
+  border-radius: 9pc;
+  background-image: linear-gradient(to bottom right, rgb(211, 40, 40), rgba(102, 15, 15, 0.575));
+}
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.balance-value {
+  font-size: 30px;
+  color: green;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.expense {
+  box-shadow: var(--box-shadow);
+  margin-top: 20px;
+  width: 240px;
+}
+
+.col-income, .col-expense {
+  padding: 20px;
+}
+
+.col-expense {
+  padding-left: 30px;
+}
+
+
+
+.income-text {
+  color: var(--income);
+}
+
+.expense-text {
+  color: var(--expense);
+}
+
+.transactions, .transactions li {
+  padding: 0;
+  margin: 0;
+}
+
+.transactions li {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(230, 104, 104));
+  padding: 10px;
+}
+
+.transactions li span {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.transaction-form input {
+  width: 97%;
+  height: 25px;
+  border-radius: 4pc;
+}
+
+.transaction-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.transaction-form button {
+  height: 30px;
+  margin-bottom: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  width: 100%;
+  border-radius: 4pc;
+
+}
